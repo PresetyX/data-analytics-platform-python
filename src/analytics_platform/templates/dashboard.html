@@ -1,0 +1,5 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Analytics Dashboard</title><style>body{font-family:system-ui;max-width:900px;margin:40px auto;padding:0 20px;background:#f5f7fb;color:#172033}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:16px}.card{background:white;border-radius:12px;padding:20px;box-shadow:0 2px 12px #0001}.value{font-size:1.6rem;font-weight:700}code{background:#e9edf5;padding:3px 6px;border-radius:5px}</style></head>
+<body><h1>Sales Analytics Dashboard</h1><p>Educational dashboard powered by Flask and Pandas.</p><section class="grid"><div class="card">Revenue<div class="value">${{ "%.2f"|format(data.total_revenue) }}</div></div><div class="card">Units<div class="value">{{ data.total_units }}</div></div><div class="card">Top product<div class="value">{{ data.top_product }}</div></div><div class="card">Top region<div class="value">{{ data.top_region }}</div></div></section><p>Explore the API at <code>/api/summary</code>, <code>/api/sales</code>, and <code>/api/forecast</code>.</p></body>
+</html>
