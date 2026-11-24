@@ -48,3 +48,7 @@ curl "http://localhost:5000/api/forecast?days=7"
 - `templates/`: dashboard presentation.
 
 This is an educational project. Forecasts are illustrative and must not be used as business or financial advice.
+
+## Development history
+
+This project was developed locally between 2025-11-26 and 2026-09-18. The commit history was created afterwards, and the commit dates were adjusted to match the period in which the work was actually done.
