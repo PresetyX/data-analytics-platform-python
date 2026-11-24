@@ -1,3 +1,5 @@
+🌐 **English** | [Português (BR)](README.pt-BR.md)
+
 # Data Analytics Platform
 
 Educational analytics platform built with Python, Flask, Pandas, NumPy, and scikit-learn.
